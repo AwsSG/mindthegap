@@ -41,8 +41,7 @@ footer{
     flex-direction: column;
     background: center center/cover no-repeat url(../images/clouds-ernest-brillo-unsplash\ \(1\).webp);
     position: fixed;
-    bottom: 0;
-    
+    bottom: 0;   
 }
 
 .gitHub-link{
