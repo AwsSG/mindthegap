@@ -1,27 +1,54 @@
-<<<<<<< HEAD
-*{
+
+
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-main{
-    color: black;
-   
-   
+:root {
+    --primary-cl: rgb(80,118,49);
+    --secondary-cl: rgb(148,198,107);
+    --accent-cl: rgb(87,49,118);
+}
+.container-fluid{
+    padding: 0;
 }
 
 header{
     text-align: center;
     background: center center/cover no-repeat url(../images/clouds-ernest-brillo-unsplash\ \(1\).webp);
+    width: 100%;
+    padding: 10px;
+}
+
+
+.logo {
+    filter: invert(60%) sepia(91%) saturate(1748%) hue-rotate(163deg) brightness(88%) contrast(89%);
+    filter: invert(39%) sepia(8%) saturate(1691%) hue-rotate(50deg) brightness(98%) contrast(91%);
+    filter: invert(43%) sepia(26%) saturate(850%) hue-rotate(50deg) brightness(89%) contrast(92%);
+}
+
+.our_mission {
+    padding: 2em;
+}
+
+
+h2,
+h3,
+h4 {
+    color: var(--accent-cl);
+}
+
+.button {
+    background-color: var(--primary-cl);
 }
 
 footer{
     display: flex;
     flex-direction: column;
     background: center center/cover no-repeat url(../images/clouds-ernest-brillo-unsplash\ \(1\).webp);
-    position: fixed;
-    bottom: 0;
+  
     
 }
 
@@ -48,40 +75,6 @@ footer p{
 .git-dummy{
     display: none;
 }
-=======
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-:root {
-    --primary-cl: rgb(80,118,49);
-    --secondary-cl: rgb(148,198,107);
-    --accent-cl: rgb(87,49,118);
-}
-
-
-.logo {
-    filter: invert(60%) sepia(91%) saturate(1748%) hue-rotate(163deg) brightness(88%) contrast(89%);
-    filter: invert(39%) sepia(8%) saturate(1691%) hue-rotate(50deg) brightness(98%) contrast(91%);
-    filter: invert(43%) sepia(26%) saturate(850%) hue-rotate(50deg) brightness(89%) contrast(92%);
-}
-
-.our_mission {
-    padding: 2em;
-}
-
-h1,
-h2,
-h3,
-h4 {
-    color: var(--accent-cl);
-}
-
-.button {
-    background-color: var(--primary-cl);
-}
 
 
 @media screen and (min-width: 768px) {
@@ -94,4 +87,3 @@ h4 {
         padding: 0;
     }
 }
->>>>>>> 91976c42bf56c3fa1913e10f231c2687b0fba30e
