@@ -10,6 +10,15 @@
     --accent-cl: rgb(87, 49, 118);
 }
 
+header{
+    text-align: center;
+    background: center center/cover no-repeat url(../images/clouds-ernest-brillo-unsplash\ \(1\).webp);
+}
+
+.container-fluid{
+    padding: 0;
+}
+
 
 .logo {
     filter: invert(60%) sepia(91%) saturate(1748%) hue-rotate(163deg) brightness(88%) contrast(89%);
@@ -21,7 +30,6 @@
     padding: 2em;
 }
 
-h1,
 h2,
 h3,
 h4 {
@@ -30,6 +38,37 @@ h4 {
 
 .button {
     background-color: var(--primary-cl);
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background: center center/cover no-repeat url(../images/clouds-ernest-brillo-unsplash\ \(1\).webp);
+   
+}
+
+.gitHub-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 10px 0 10px 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+footer p{
+    text-align: center;
+    font-weight: 700;
+}
+
+.git-dummy{
+    display: none;
 }
 
 
