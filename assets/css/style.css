@@ -1,3 +1,54 @@
+<<<<<<< HEAD
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    color: black;
+   
+   
+}
+
+header{
+    text-align: center;
+    background: center center/cover no-repeat url(../images/clouds-ernest-brillo-unsplash\ \(1\).webp);
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background: center center/cover no-repeat url(../images/clouds-ernest-brillo-unsplash\ \(1\).webp);
+    position: fixed;
+    bottom: 0;
+    
+}
+
+.gitHub-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 10px 0 10px 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+footer p{
+    text-align: center;
+    font-weight: 700;
+}
+
+.git-dummy{
+    display: none;
+}
+=======
 * {
     box-sizing: border-box;
     margin: 0;
@@ -43,3 +94,4 @@ h4 {
         padding: 0;
     }
 }
+>>>>>>> 91976c42bf56c3fa1913e10f231c2687b0fba30e
