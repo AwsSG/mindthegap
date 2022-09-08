@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
 
     <title>Mind the Gap</title>
 </head>
+<<<<<<< HEAD
 <body class="container-fluid">
     <header>
         <h1>Mind The Gap</h1>
@@ -22,21 +25,77 @@
         <div class="row main_header mt-4">
             <div class="col-md-5 logo text-center"><img id="train-logo" src="assets/images/train-logo.png" alt="Train logo"></div>
             <!-- <div class="col-md-7 title text-center"><h1>Mind the Gap</h1></div> -->
+=======
+
+<body class="container">
+    <header></header>
+
+    <main>
+        <div class="row main_header mt-4">
+            <div class="col-md-5 logo text-center"><img id="train-logo" src="assets/images/train-logo.png"
+                    alt="Train logo"></div>
+            <div class="col-md-7 title text-center">
+                <h1>Mind the Gap</h1>
+            </div>
+>>>>>>> 4492a83a1a1e139675995c4675fbe90d7130ec5f
         </div>
         <div class="row our_mission">
-            <div class="col-md-8 mx-auto text-center mb-4"><h2 class="our_mission_title">Our Mission</h2></div>
+            <div class="col-md-8 mx-auto text-center mb-4">
+                <h2 class="our_mission_title">Our Mission</h2>
+            </div>
             <p class="col-md-8 mx-auto lead">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis soluta expedita, quia dignissimos labore maxime atque consectetur laboriosam eius voluptatem ea provident, ipsam esse nostrum fugiat animi ut, quasi magni?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis soluta expedita, quia dignissimos
+                labore maxime atque consectetur laboriosam eius voluptatem ea provident, ipsam esse nostrum fugiat animi
+                ut, quasi magni?
             </p>
         </div>
         <div class="start-test text-center my-5">
             <button class="btn btn-success btn-lg button">Start Test</button>
         </div>
+
+        <section id="question-box">
+            <div class="row">
+                <div class="col">
+                    <form>
+                        <div id="questions">
+                            <div class="question active">
+                                <label for="inlineRadio1" class="form-label">What is <strong>Java?</strong></label>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio1" value="-20">
+                                    <label class="form-check-label" for="inlineRadio1">A brand of coffee</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio2" value="0">
+                                    <label class="form-check-label" for="inlineRadio2">An island in Japan</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio3" value="20">
+                                    <label class="form-check-label" for="inlineRadio3">A coding language</label>
+                                </div>
+                            </div>
+                            <div class="question">question 2</div>
+                            <div class="question">question 3</div>
+                            <div class="question">question 4</div>
+                            <div class="question">question 5</div>
+                            <div class="question">question 6</div>
+                            <div class="question">question 7</div>
+                            <div class="question">question 8</div>
+                        </div>
+                        <button type="button" id="back">Back</button>
+                        <button type="button" id="next">Next</button>
+                    </form>
+                </div>
+            </div>
+
+        </section>
         <section id="q1">
             <div>
                 <h2>What is <strong>Java?</strong></h2>
             </div>
-            
+
             <form action="#">
                 <input type="radio" id="coffee" name="ans1">
                 <label for="coffee">
@@ -60,7 +119,7 @@
             <div>
                 <h2>What's the first step you take when solving a problem?</h2>
             </div>
-            
+
             <form action="#">
                 <input type="radio" id="google" name="ans1">
                 <label for="google">
@@ -81,13 +140,13 @@
             <div>
                 <h2>What's the most important factor in a career for you?</h2>
             </div>
-            
+
             <form action="#">
                 <input type="radio" id="difference" name="ans1">
                 <label for="difference">
                     <p>Make a difference</p>
                 </label>
-                
+
                 <input type="radio" id="money" name="ans2">
                 <label for="money">
                     <p>Money</p>
@@ -103,7 +162,7 @@
             <div>
                 <h2>Which of these logos do you recognise?</h2>
             </div>
-            
+
             <form action="#">
                 <input type="radio" id="aws" name="ans1">
                 <label for="aws">
@@ -119,12 +178,12 @@
                 </label>
             </form>
         </section>
-        
+
         <section id="q5">
             <div>
                 <h2>Which is more important?</h2>
             </div>
-            
+
             <form action="#">
                 <input type="radio" id="func" name="ans1">
                 <label for="func">
@@ -140,6 +199,7 @@
 
     <footer>
         <div class="gitHub-link">
+<<<<<<< HEAD
             <a href="#" target="_blank"><i class="fa-brands fa-square-github"></i> <span class="git-dummy">R</span></i></a> 
             <a href="" target="_blank"><i class="fa-brands fa-square-github"></i> <span class="git-dummy">R</span></i></a> 
         </div>
@@ -148,16 +208,39 @@
             <a href="" target="_blank"> <i class="fa-brands fa-github"><span class="git-dummy">R</span></i></a> 
             <a href="" target="_blank"> <i class="fa-brands fa-github"><span class="git-dummy">R</span></i></a> 
             <a href="" target="_blank"> <i class="fa-brands fa-github"><span class="git-dummy">R</span></i></a> 
+=======
+            <a href="#" target="_blank"><i class="fa-brands fa-square-github"></i> <span
+                    class="git-dummy">R</span></i></a>
+            <a href="" target="_blank"><i class="fa-brands fa-square-github"></i> <span
+                    class="git-dummy">R</span></i></a>
+        </div>
+
+        <div class="gitHub-link">
+            <a href="" target="_blank"> <i class="fa-brands fa-github"><span class="git-dummy">R</span></i></a>
+            <a href="" target="_blank"> <i class="fa-brands fa-github"><span class="git-dummy">R</span></i></a>
+            <a href="" target="_blank"> <i class="fa-brands fa-github"><span class="git-dummy">R</span></i></a>
+>>>>>>> 4492a83a1a1e139675995c4675fbe90d7130ec5f
 
         </div>
         <p>Created for Close the Gender Gap Hackathon by team '50/50'</p>
 
     </footer>
+<<<<<<< HEAD
     <script defer src="https://kit.fontawesome.com/a5d485eba2.js" crossorigin="anonymous"></script> 
    
+=======
+    <script defer src="https://kit.fontawesome.com/a5d485eba2.js" crossorigin="anonymous"></script>
+
+>>>>>>> 4492a83a1a1e139675995c4675fbe90d7130ec5f
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/script.js"></script>
 </body>
+
 </html>

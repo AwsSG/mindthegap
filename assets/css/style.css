@@ -7,9 +7,9 @@
 }
 
 :root {
-    --primary-cl: rgb(80,118,49);
-    --secondary-cl: rgb(148,198,107);
-    --accent-cl: rgb(87,49,118);
+    --primary-cl: rgb(80, 118, 49);
+    --secondary-cl: rgb(148, 198, 107);
+    --accent-cl: rgb(87, 49, 118);
 }
 .container-fluid{
     padding: 0;
@@ -86,4 +86,8 @@ footer p{
     .our_mission {
         padding: 0;
     }
+}
+/* to hide non active questions */
+.question:not(.active) {
+    display: none;
 }
