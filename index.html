@@ -10,6 +10,7 @@
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <!-- <link rel="stylesheet" href="assets/css/gauge.css" type="text/css" /> -->
 
 
     <title>Mind the Gap</title>
@@ -57,7 +58,7 @@
                         <div id="questions">
                             <div class="question active">
                                 <div class="question_statement text-center">
-                                    <h2>What is <strong>Java?</strong></h2>
+                                    <h2>What does <strong>Java</strong> mean to you?</h2>
                                 </div>
 
                                 <div class="row form-check form-check-inline text-center">
@@ -158,7 +159,6 @@
                                 </div>
 
                             </div>
-
                             <div class="question">
                                 <div class="question_statement text-center">
                                     <h2>Which is more important?</h2>
@@ -176,53 +176,64 @@
                                     </label><br>
                                 </div>
                             </div>
-                            <div class="question">question 6</div>
+                            <div class="question">
+                                <div>
+                                    <h2>What will this code return?</h2>
+                                </div>
+                                <code>
+                                    function sum(a,b) {
+                                        return a + b
+                                    }
+                                </code>
+                                <label for="inlineRadio1">
+                                    <input type="radio" class="form-check-input" value="-20"
+                                        name="inlineRadioOptions" id="inlineRadio1">
+                                    <code>
+                                        // a: 4
+                                    </code>
+                                </label><br>
+                                <label for="inlineRadio2">
+                                    <input type="radio" class="form-check-input" value="-20"
+                                        name="inlineRadioOptions" id="inlineRadio2">
+                                    <code>
+                                        // b: 6
+                                    </code>
+                                </label><br>
+                                <label for="inlineRadio3">
+                                    <input type="radio" class="form-check-input" value="0"
+                                        name="inlineRadioOptions" id="inlineRadio3">
+                                    <code>
+                                        // c: 46
+                                    </code>
+                                </label><br>
+                                <label for="inlineRadio4">
+                                    <input type="radio" class="form-check-input" value="20"
+                                        name="inlineRadioOptions" id="inlineRadio4">
+                                    <code>
+                                        // d: 10
+                                    </code>
+                                </label><br>
+                            </div>
                             <div class="question">question 7</div>
                             <div class="question">question 8</div>
-                            <!-- </div> -->
-                            <!-- <button type="button" id="back">Back</button> -->
-                            <div class="buttons my-5">
-                                <div class="back-button ">
-                                    <button class="btn btn-warning btn-lg button" type="button" id="back">
-                                        Back
-                                    </button>
-                                </div>
-    
-                                <div class="next-button ">
-                                    <button class="btn btn-warning btn-lg button" type="button" id="next">
-                                        Next
-                                    </button>
-                                </div>
-                            </div>    
-                                <div class="question">
-                                    <div class="question_statement text-center">
-                                        <h2>Which is more important?</h2>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <label for="inlineRadio1">
-                                            <input type="radio" class="form-check-input" value="20"
-                                                name="inlineRadioOptions" id="inlineRadio1">
-                                            Functionality
-                                        </label><br>
-                                        <label for="inlineRadio2">
-                                            <input type="radio" class="form-check-input" value="20"
-                                                name="inlineRadioOptions" id="inlineRadio2">
-                                            Appearance
-                                        </label><br>
-                                    </div>
 
-                                </div>
+                            <div class="div-button text-center my-3">
+                                <button class="btn btn-success btn-lg button" type="button" id="back">
+                                    Back
+                                </button>
+                            </div>
 
-
-                            
+                            <div class="div-button text-center my-3">
+                                <button class="btn btn-success btn-lg button" type="button" id="next">
+                                    Next
+                                </button>
+                            </div>
 
                         </div>
                     </form>
                 </div>
             </div>
-
         </section>
-
     </main>
 
     <footer>
@@ -234,7 +245,7 @@
         </div>
 
         <div class="gitHub-link">
-            <a href="" target="_blank"> <i class="fa-brands fa-github"><span class="git-dummy">R</span></i></a>
+            <a href="results.html" > <i class="fa-brands fa-github"><span class="git-dummy">R</span></i></a>
             <a href="" target="_blank"> <i class="fa-brands fa-github"><span class="git-dummy">R</span></i></a>
             <a href="" target="_blank"> <i class="fa-brands fa-github"><span class="git-dummy">R</span></i></a>
 
