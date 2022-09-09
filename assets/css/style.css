@@ -10,6 +10,7 @@
     --accent-cl: rgb(87, 49, 118);
 }
 
+
 header{
     /* text-align: center; */
     background: center center/cover no-repeat url(../images/clouds-ernest-brillo-unsplash\ \(1\).webp);
@@ -23,7 +24,6 @@ header{
 .logo, .gitHub-link{
     filter: invert(60%) sepia(91%) saturate(1748%) hue-rotate(163deg) brightness(88%) contrast(89%);
     filter: invert(390%) sepia(28%) saturate(1691%) hue-rotate(90deg) brightness(98%) contrast(71%);
-    /* filter: invert(43%) sepia(26%) saturate(850%) hue-rotate(50deg) brightness(89%) contrast(92%); */
 }
 
 .our_mission {
@@ -41,15 +41,15 @@ h4 {
     color: var(--primary-cl);
 }
 
-img {
+/* img {
     height: 100px;
     width: 100px;
     margin: 5px;
-}
+} */
 
-.ans-block {
+/* .ans-block {
     display: inline-block;
-}
+} */
 
 .button {
     background-color: var(--primary-cl);
@@ -58,7 +58,7 @@ img {
 /*Questions*/
 
 #questions {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -112,6 +112,35 @@ footer p{
     display: none;
 }
 
+@media screen and (max-width: 576px) {
+    .img-thumbnail {
+        max-width: 250px;
+    }
+
+    .img-thumbnail img {
+        width: 90%;
+        height: auto;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .form-check {
+        width: 100%;
+    }
+
+    .img-thumbnail {
+        width: 400px;
+    }
+
+    .img-thumbnail img {
+        width: 90%;
+        height: auto;
+    }
+    
+}
+
 
 @media screen and (min-width: 768px) {
     .title {
@@ -121,6 +150,12 @@ footer p{
 
     .our_mission {
         padding: 0;
+    }
+
+    img {
+        height: 140px;
+        width: 190px;
+        margin: 5px;
     }
 }
 /* to hide non active questions */
