@@ -10,6 +10,7 @@
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/gauge.css" type="text/css" />
 
 
     <title>Mind the Gap</title>
@@ -94,13 +95,13 @@
                                 <div class="question_statement text-center">
                                     <h2>What's the first step you take when solving a problem?</h2>
                                 </div>
-                                
+
                                 <div class="row form-check form-check-inline">
                                     <div class="col-md-3 ans-block">
                                         <label for="inlineRadio1">
                                             <input type="radio" class="form-check-input" value="20"
                                                 name="inlineRadioOptions" id="inlineRadio1">
-                                           <p>Google it</p> 
+                                            <p>Google it</p>
                                             <div class="img-thumbnail border-warning">
                                                 <img src="assets/images/island.jpg" alt="island-view">
                                             </div>
@@ -108,8 +109,8 @@
                                     </div>
                                     <div class="col-md-3 ans-block">
                                         <label for="inlineRadio2">
-                                            <input type="radio" class="form-check-input" value="0" name="inlineRadioOptions"
-                                                id="inlineRadio2">
+                                            <input type="radio" class="form-check-input" value="0"
+                                                name="inlineRadioOptions" id="inlineRadio2">
                                             <p>Try a different approach</p>
                                             <div class="img-thumbnail border-warning">
                                                 <img src="assets/images/island.jpg" alt="island-view">
@@ -132,7 +133,7 @@
                                 <div class="question_statement text-center">
                                     <h2>What's the most important factor in a career for you?</h2>
                                 </div>
-                                
+
                                 <div class="row form-check form-check-inline">
                                     <div class="col-md-3 ans-block">
                                         <label for="inlineRadio1">
@@ -156,8 +157,8 @@
                                     </div>
                                     <div class="col-md-3 ans-block">
                                         <label for="inlineRadio3">
-                                            <input type="radio" class="form-check-input" value="0" name="inlineRadioOptions"
-                                                id="inlineRadio3">
+                                            <input type="radio" class="form-check-input" value="0"
+                                                name="inlineRadioOptions" id="inlineRadio3">
                                             <p>Flexibility</p>
                                             <div class="img-thumbnail border-warning">
                                                 <img src="assets/images/island.jpg" alt="island-view">
@@ -170,27 +171,30 @@
                                 <div class="question_statement text-center">
                                     <h2>Which of these logos do you recognise?</h2>
                                 </div>
-                                
+
                                 <div class="row form-check form-check-inline">
                                     <div class="col-md-3 ans-block">
                                         <label for="inlineRadio1">
                                             <input type="radio" class="form-check-input" value="20"
                                                 name="inlineRadioOptions" id="inlineRadio1">
-                                            <img src="assets/images/aws-logo.png" class="img-thumbnail border-warning " alt="logo">
+                                            <img src="assets/images/aws-logo.png" class="img-thumbnail border-warning "
+                                                alt="logo">
                                         </label><br>
                                     </div>
                                     <div class="col-md-3 ans-block">
                                         <label for="inlineRadio2">
-                                            <input type="radio" class="form-check-input" value="0" name="inlineRadioOptions"
-                                                id="inlineRadio2">
-                                            <img src="assets/images/air-bnb.png" class="img-thumbnail border-warning" alt="logo">
+                                            <input type="radio" class="form-check-input" value="0"
+                                                name="inlineRadioOptions" id="inlineRadio2">
+                                            <img src="assets/images/air-bnb.png" class="img-thumbnail border-warning"
+                                                alt="logo">
                                         </label><br>
                                     </div>
                                     <div class="col-md-3 ans-block">
                                         <label for="inlineRadio3">
                                             <input type="radio" class="form-check-input" value="-20"
                                                 name="inlineRadioOptions" id="inlineRadio3">
-                                            <img src="assets/images/chanel.png" class="img-thumbnail border-warning" alt="logo">
+                                            <img src="assets/images/chanel.png" class="img-thumbnail border-warning"
+                                                alt="logo">
                                         </label><br>
                                     </div>
                                 </div>
@@ -224,45 +228,75 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="question">question 6</div>
-                            <div class="question">question 7</div>
-                            <div class="question">question 8</div>
-                            <!-- </div> -->
-                            <!-- <button type="button" id="back">Back</button> -->
+
+                            <section id="result">
+                                <div class="row">
+                                    <h2 class="col-md-8 mx-auto text-center mb-4">
+                                        Here's what we think you should do next:
+                                    </h2>
+                                </div>
+
+
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-3 mx-auto justify-content-center">
+                                            <div class="gauge">
+                                                <div class="gauge-body">
+                                                    <div class="gauge-fill"></div>
+                                                    <div class="gauge-cover"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col">
+                                            <h5>Junior Fullstack Developer</h5>
+                                            <p>A developer that uses both frontend and backend technologies in computer
+                                                software.</p>
+                                        </div>
+                                        <div class="col">
+                                            <h5>Frontend Developer</h5>
+                                            <p>A developer that uses frontend technologies, such as HTML & CSS for
+                                                consumer interfaces.</p>
+                                        </div>
+                                        <div class="w-100"></div>
+                                        <div class="col">
+                                            <h5>Backend Developer</h5>
+                                            <p>A developer that utilises backend technologies, such as JavaScript &
+                                                Python, to handle
+                                                app/product logic.</p>
+                                        </div>
+                                        <div class="col">
+                                            <h5>Junior Developer</h5>
+                                            <p>General developer, fantastic role for people starting off in the
+                                                industry.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
                             <div class="buttons my-5">
                                 <div class="back-button ">
                                     <button class="btn btn-warning btn-lg button" type="button" id="back">
                                         Back
                                     </button>
                                 </div>
-    
+
                                 <div class="next-button ">
                                     <button class="btn btn-warning btn-lg button" type="button" id="next">
                                         Next
                                     </button>
                                 </div>
-                            </div>    
-                                <div class="question">
-                                    <div class="question_statement text-center">
-                                        <h2>Which is more important?</h2>
-                                    </div>
-                                    <div class="col-md-3 ans-block">
-
-                                    </div>
-                                    <div class="row form-check form-check-inline">
-                                        <label for="inlineRadio1">
-                                            <input type="radio" class="form-check-input" value="20"
-                                                name="inlineRadioOptions" id="inlineRadio1">
-                                            Functionality
-                                        </label><br>
-                                        <label for="inlineRadio2">
-                                            <input type="radio" class="form-check-input" value="20"
-                                                name="inlineRadioOptions" id="inlineRadio2">
-                                            Appearance
-                                        </label><br>
-                                    </div>
-
+                                <div class="next-button ">
+                                    <button class="btn btn-warning btn-lg button" type="button" id="result-btn">
+                                        Show result
+                                    </button>
                                 </div>
+                            </div>
                         </div>
                     </form>
                 </div>
@@ -295,7 +329,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.8.5/jquery-ui.min.js"
+        integrity="sha256-fOse6WapxTrUSJOJICXXYwHRJOPa6C1OUQXi7C9Ddy8=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 
