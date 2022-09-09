@@ -11,18 +11,7 @@
 </head>
 <body>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-8">
-                <div class="gauge">
-                    <div class="gauge-body">
-                        <div class="gauge-fill"></div>
-                        <div class="gauge-cover"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
 
     <section>
         <div class="row">
@@ -30,6 +19,22 @@
                 Here's what we think you should do next:
             </h2>
         </div>
+
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 mx-auto justify-content-center">
+                    <div class="gauge">
+                        <div class="gauge-body">
+                            <div class="gauge-fill"></div>
+                            <div class="gauge-cover"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         <div class="container">
             <div class="row">
               <div class="col">
@@ -66,7 +71,9 @@
             gauge.querySelector(".gauge-cover").textContent = `${value}%`;
         }
 
-        setGaugeValue(gaugeElement, 30)
+
+        setGaugeValue(gaugeElement, 60)
+
     </script>
 </body>
 </html>
