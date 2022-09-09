@@ -4,10 +4,16 @@
     padding: 0;
 }
 
-:root {
+/* :root {
     --primary-cl: rgb(80, 118, 49);
     --secondary-cl: rgb(165,214,207);
     --accent-cl: rgb(87, 49, 118);
+} */
+
+:root {
+    --primary-cl: black;
+    --secondary-cl:rgb(216, 200, 48);
+    --accent-cl: rgb(203,203,204);
 }
 
 
@@ -21,10 +27,10 @@ header{
 }
 
 
-.logo, .gitHub-link{
+/* .logo, .gitHub-link{
     filter: invert(60%) sepia(91%) saturate(1748%) hue-rotate(163deg) brightness(88%) contrast(89%);
     filter: invert(390%) sepia(28%) saturate(1691%) hue-rotate(90deg) brightness(98%) contrast(71%);
-}
+} */
 
 .our_mission {
     padding: 2em;
@@ -51,10 +57,6 @@ h4 {
     display: inline-block;
 } */
 
-.button {
-    background-color: var(--primary-cl);
-}
-
 /*Questions*/
 
 #questions {
@@ -62,13 +64,21 @@ h4 {
     margin: 0 auto;
 }
 
+.question {
+    min-height: 30vh;
+}
+
+.question_statement {
+    margin: 3em;
+}
+
 .image-selected {
     background-color: var(--secondary-cl);
 }
 
-input[type='radio'] {
+/* input[type='radio'] {
     visibility: hidden;
-}
+} */
 
 .img-thumbnail {
     cursor: pointer;
@@ -80,11 +90,25 @@ input[type='radio'] {
     gap: 3em;
 }
 
+
+/* Buttons */
+
+.buttons {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    background-color: var(--primary-cl);
+    color: var(--secondary-cl);
+}
+
 footer{
     display: flex;
     flex-direction: column;
     background: center center/cover no-repeat url(../images/clouds-ernest-brillo-unsplash\ \(1\).webp);
-   
 }
 
 .gitHub-link{
