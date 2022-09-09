@@ -20,7 +20,7 @@ header{
 }
 
 
-.logo {
+.logo, .gitHub-link{
     filter: invert(60%) sepia(91%) saturate(1748%) hue-rotate(163deg) brightness(88%) contrast(89%);
     filter: invert(390%) sepia(28%) saturate(1691%) hue-rotate(90deg) brightness(98%) contrast(71%);
     /* filter: invert(43%) sepia(26%) saturate(850%) hue-rotate(50deg) brightness(89%) contrast(92%); */
@@ -51,9 +51,33 @@ img {
     display: inline-block;
 }
 
-
 .button {
     background-color: var(--primary-cl);
+}
+
+/*Questions*/
+
+#questions {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.image-selected {
+    background-color: var(--secondary-cl);
+}
+
+input[type='radio'] {
+    visibility: hidden;
+}
+
+.img-thumbnail {
+    cursor: pointer;
+}
+
+.form-check{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
 }
 
 footer{
@@ -81,6 +105,7 @@ footer a{
 footer p{
     text-align: center;
     font-weight: 700;
+    color: black;
 }
 
 .git-dummy{
