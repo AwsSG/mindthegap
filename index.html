@@ -17,13 +17,13 @@
 
 <body class="container-fluid">
     <header>
-       <h1>Mind The gap</h1>
+        <h1>Mind The gap</h1>
     </header>
 
     <main>
         <div class="row main_header mt-4">
-            <div class="col-md-5 logo text-center"><img id="train-logo" src="assets/images/train-logo.png"
-                    alt="Train logo"></div>
+            <div class="col-md-5 logo text-center"><img class="image_question" id="train-logo"
+                    src="assets/images/train-logo.png" alt="Train logo"></div>
             <div class="col-md-7 title text-center">
             </div>
         </div>
@@ -32,7 +32,7 @@
                 <h2 class="our_mission_title">Our Mission</h2>
             </div>
             <p class="col-md-8 mx-auto lead">
-                Let's close a gened gap and find ideal branch of tech industry for you using our fun and quick test.  
+                Let's close a gened gap and find ideal branch of tech industry for you using our fun and quick test.
             </p>
             <p class="col-md-8 mx-auto lead">
                 “Trust in yourself, believe that your voice matters, and know that your words are good enough.”
@@ -85,45 +85,48 @@
         </section>
         <section id="q1">
             <div>
-                <h2>What is <strong>Java?</strong></h2>
+                <h2 class="text-center">What is <strong>Java?</strong></h2>
             </div>
 
             <form action="#">
-                <input type="radio" id="coffee" name="ans1">
+
                 <label for="coffee">
-                    <img src="assets/images/coffee-cup.jpg" alt="coffee-cup">
-                    <p>A brand of coffee</p>
+                    <div class="image_question">
+                        <img src="assets/images/coffee-cup.jpg" alt="coffee-cup">
+                    </div>
+                    <p><input type="radio" id="coffee" name="ans1"> A brand of coffee</p>
                 </label>
-                <input type="radio" id="island" name="ans2">
+
                 <label for="island">
-                    <img src="assets/images/island.jpg" alt="island-view">
-                    <p>An island</p>
+                    <div class="image_question">
+                        <img src="assets/images/island.jpg" alt="island-view">
+                    </div>
+                    <p><input type="radio" id="island" name="ans2"> An island</p>
                 </label>
-                <input type="radio" id="code" name="ans3">
                 <label for="code">
-                    <img src="assets/images/code-language.jpg" alt="code">
-                    <p>A coding language</p>
+                    <div class="image_question">
+                        <img src="assets/images/code-language.jpg" alt="code">
+                    </div>
+                    <p><input type="radio" id="code" name="ans3"> A coding language</p>
+
                 </label>
             </form>
         </section>
 
         <section id="q2">
             <div>
-                <h2>What's the first step you take when solving a problem?</h2>
+                <h2 class="text-center">What's the first step you take when solving a problem?</h2>
             </div>
 
             <form action="#">
-                <input type="radio" id="google" name="ans1">
                 <label for="google">
-                    <p>Google it</p>
+                    <p><input type="radio" id="google" name="ans1"> Google it</p>
                 </label>
-                <input type="radio" id="approach" name="ans2">
                 <label for="approach">
-                    <p>Try a different approach</p>
+                    <p><input type="radio" id="approach" name="ans2"> Try a different approach</p>
                 </label>
-                <input type="radio" id="ask" name="ans3">
                 <label for="ask">
-                    <p>Ask someone for help</p>
+                    <p><input type="radio" id="ask" name="ans3"> Ask someone for help</p>
                 </label>
             </form>
         </section>
@@ -134,18 +137,14 @@
             </div>
 
             <form action="#">
-                <input type="radio" id="difference" name="ans1">
                 <label for="difference">
-                    <p>Make a difference</p>
+                    <p><input type="radio" id="difference" name="ans1"> Make a difference</p>
                 </label>
-
-                <input type="radio" id="money" name="ans2">
                 <label for="money">
-                    <p>Money</p>
+                    <p><input type="radio" id="money" name="ans2"> Money</p>
                 </label>
-                <input type="radio" id="flex" name="ans3">
                 <label for="flex">
-                    <p>Flexibility</p>
+                    <p><input type="radio" id="flex" name="ans3"> Flexibility</p>
                 </label>
             </form>
         </section>
@@ -158,15 +157,21 @@
             <form action="#">
                 <input type="radio" id="aws" name="ans1">
                 <label for="aws">
-                    <img src="assets/images/air-bnb.png" alt="logo">
+                    <div class="image_question">
+                        <img src="assets/images/air-bnb.png" alt="logo">
+                    </div>
                 </label>
                 <input type="radio" id="airbnb" name="ans2">
                 <label for="airbnb">
-                    <img src="assets/images/air-bnb.png" alt="logo">
+                    <div class="image_question">
+                        <img src="assets/images/air-bnb.png" alt="logo">
+                    </div>
                 </label>
                 <input type="radio" id="chanel" name="ans3">
                 <label for="chanel">
-                    <img src="assets/images/chanel.png" alt="logo">
+                    <div class="image_question">
+                        <img src="assets/images/chanel.png" alt="logo">
+                    </div>
                 </label>
             </form>
         </section>
@@ -181,9 +186,8 @@
                 <label for="func">
                     <p>Functionality</p>
                 </label>
-                <input type="radio" id="apperance" name="ans2">
                 <label for="apperance">
-                    <p>Appearance</p>
+                    <p><input type="radio" id="apperance" name="ans2"> Appearance</p>
                 </label>
             </form>
         </section>
