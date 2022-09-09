@@ -31,7 +31,14 @@ function buttonCheck() {
     }
 }
 
+$("#start").click(function () {
+    $(".our_mission").hide("fast");
+    $(".start-test").hide("fast");
+    $("#question-box").show("fast");
+});
+
 $("input[type='radio'][name='inlineRadioOptions']").click(function () {
     var score = $("input[type='radio'][name='inlineRadioOptions']:checked").val();
     console.log(score)
 });
+

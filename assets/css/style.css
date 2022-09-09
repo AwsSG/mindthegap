@@ -99,6 +99,6 @@ footer p{
     }
 }
 /* to hide non active questions */
-.question:not(.active) {
+.question:not(.active), #question-box {
     display: none;
 }
