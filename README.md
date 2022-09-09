@@ -24,11 +24,28 @@ All images used were taken from free sources which is credited in the credits se
 
 ### **Mobile**
 
+#### Homepage on Mobile
+![Mobile Home](/docs/home-mobile.png)
+
+#### Questions Page on Mobile
+![Mobile Questions](/docs/questions-mobile.png)
+
+#### Results Page on Mobile
+![Mobile Results](/docs/results-mobile.png)
 
 ### **Tablet**
 
 
 ### **Desktop**
+
+#### Homepage on Desktop
+![Desktop Home](/docs/home-desktop.png)
+
+#### Questions Page on Desktop
+![Desktop Questions](/docs/questions-desktop.png)
+
+#### Results Page on Desktop
+![Desktop Results](/docs/results-desktop.png)
 
 # **Features**
 
