@@ -24,6 +24,7 @@ All images used were taken from free sources which is credited in the credits se
 
 ### **Mobile**
 
+
 #### Homepage on Mobile
 ![Mobile Home](/docs/home-mobile.png)
 
@@ -33,10 +34,13 @@ All images used were taken from free sources which is credited in the credits se
 #### Results Page on Mobile
 ![Mobile Results](/docs/results-mobile.png)
 
+
+
 ### **Tablet**
 
 
 ### **Desktop**
+
 
 #### Homepage on Desktop
 ![Desktop Home](/docs/home-desktop.png)
@@ -46,6 +50,7 @@ All images used were taken from free sources which is credited in the credits se
 
 #### Results Page on Desktop
 ![Desktop Results](/docs/results-desktop.png)
+
 
 # **Features**
 

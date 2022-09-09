@@ -6,30 +6,139 @@
 
 :root {
     --primary-cl: rgb(80, 118, 49);
-    --secondary-cl: rgb(148, 198, 107);
+    --secondary-cl: rgb(165,214,207);
     --accent-cl: rgb(87, 49, 118);
 }
 
 
-.logo {
+header{
+    /* text-align: center; */
+    background: center center/cover no-repeat url(../images/clouds-ernest-brillo-unsplash\ \(1\).webp);
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+
+.logo, .gitHub-link{
     filter: invert(60%) sepia(91%) saturate(1748%) hue-rotate(163deg) brightness(88%) contrast(89%);
-    filter: invert(39%) sepia(8%) saturate(1691%) hue-rotate(50deg) brightness(98%) contrast(91%);
-    filter: invert(43%) sepia(26%) saturate(850%) hue-rotate(50deg) brightness(89%) contrast(92%);
+    filter: invert(390%) sepia(28%) saturate(1691%) hue-rotate(90deg) brightness(98%) contrast(71%);
 }
 
 .our_mission {
     padding: 2em;
 }
 
-h1,
+h1 {
+    color: var(--secondary-cl);
+    text-shadow: 0 0 3px var(--primary-cl);
+}
+
 h2,
 h3,
 h4 {
-    color: var(--accent-cl);
+    color: var(--primary-cl);
 }
+
+/* img {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+} */
+
+/* .ans-block {
+    display: inline-block;
+} */
 
 .button {
     background-color: var(--primary-cl);
+}
+
+/*Questions*/
+
+#questions {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.image-selected {
+    background-color: var(--secondary-cl);
+}
+
+input[type='radio'] {
+    visibility: hidden;
+}
+
+.img-thumbnail {
+    cursor: pointer;
+}
+
+.form-check{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background: center center/cover no-repeat url(../images/clouds-ernest-brillo-unsplash\ \(1\).webp);
+   
+}
+
+.gitHub-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 10px 0 10px 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+footer p{
+    text-align: center;
+    font-weight: 700;
+    color: black;
+}
+
+.git-dummy{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .img-thumbnail {
+        max-width: 250px;
+    }
+
+    .img-thumbnail img {
+        width: 90%;
+        height: auto;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .form-check {
+        width: 100%;
+    }
+
+    .img-thumbnail {
+        width: 400px;
+    }
+
+    .img-thumbnail img {
+        width: 90%;
+        height: auto;
+    }
+    
 }
 
 
@@ -41,6 +150,12 @@ h4 {
 
     .our_mission {
         padding: 0;
+    }
+
+    img {
+        height: 140px;
+        width: 190px;
+        margin: 5px;
     }
 }
 /* to hide non active questions */
