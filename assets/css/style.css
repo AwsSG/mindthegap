@@ -6,12 +6,12 @@
 
 :root {
     --primary-cl: rgb(80, 118, 49);
-    --secondary-cl: rgb(148, 198, 107);
+    --secondary-cl: rgb(165,214,207);
     --accent-cl: rgb(87, 49, 118);
 }
 
 header{
-    text-align: center;
+    /* text-align: center; */
     background: center center/cover no-repeat url(../images/clouds-ernest-brillo-unsplash\ \(1\).webp);
 }
 
@@ -22,18 +22,23 @@ header{
 
 .logo {
     filter: invert(60%) sepia(91%) saturate(1748%) hue-rotate(163deg) brightness(88%) contrast(89%);
-    filter: invert(39%) sepia(8%) saturate(1691%) hue-rotate(50deg) brightness(98%) contrast(91%);
-    filter: invert(43%) sepia(26%) saturate(850%) hue-rotate(50deg) brightness(89%) contrast(92%);
+    filter: invert(390%) sepia(28%) saturate(1691%) hue-rotate(90deg) brightness(98%) contrast(71%);
+    /* filter: invert(43%) sepia(26%) saturate(850%) hue-rotate(50deg) brightness(89%) contrast(92%); */
 }
 
 .our_mission {
     padding: 2em;
 }
 
+h1 {
+    color: var(--secondary-cl);
+    text-shadow: 0 0 3px var(--primary-cl);
+}
+
 h2,
 h3,
 h4 {
-    color: var(--accent-cl);
+    color: var(--primary-cl);
 }
 
 img {
