@@ -37,8 +37,14 @@ $("#start").click(function () {
     $("#question-box").show("fast");
 });
 
-$("input[type='radio'][name='inlineRadioOptions']").click(function () {
-    var score = $("input[type='radio'][name='inlineRadioOptions']:checked").val();
-    console.log(score)
-});
+let answers = [];
+let total = 0;
 
+$("input[type='radio'][name='inlineRadioOptions']").click(function () {
+    let score = $("input[type='radio'][name='inlineRadioOptions']:checked").val();
+    answers.push(Number(score))
+    total = answers.reduce((a, b) => a + b, 0)
+    console.log(score)
+    console.log(answers)
+    console.log(total)
+});
