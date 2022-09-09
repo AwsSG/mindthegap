@@ -31,7 +31,20 @@ function buttonCheck() {
     }
 }
 
+$("#start").click(function () {
+    $(".our_mission").hide("fast");
+    $(".start-test").hide("fast");
+    $("#question-box").show("fast");
+});
+
+let answers = [];
+let total = 0;
+/* .hide( "slide", { direction: "left"  }, 2000 ) */
 $("input[type='radio'][name='inlineRadioOptions']").click(function () {
-    var score = $("input[type='radio'][name='inlineRadioOptions']:checked").val();
+    let score = $("input[type='radio'][name='inlineRadioOptions']:checked").val();
+    answers.push(Number(score))
+    total = answers.reduce((a, b) => a + b, 0)
     console.log(score)
+    console.log(answers)
+    console.log(total)
 });
