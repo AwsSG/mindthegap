@@ -36,6 +36,17 @@ h4 {
     color: var(--accent-cl);
 }
 
+img {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+
+.ans-block {
+    display: inline-block;
+}
+
+
 .button {
     background-color: var(--primary-cl);
 }
