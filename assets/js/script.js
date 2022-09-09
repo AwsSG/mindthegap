@@ -39,7 +39,7 @@ $("#start").click(function () {
 
 let answers = [];
 let total = 0;
-
+/* .hide( "slide", { direction: "left"  }, 2000 ) */
 $("input[type='radio'][name='inlineRadioOptions']").click(function () {
     let score = $("input[type='radio'][name='inlineRadioOptions']:checked").val();
     answers.push(Number(score))
