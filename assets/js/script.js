@@ -22,12 +22,15 @@ function buttonCheck() {
         $('#next').hide();
         $('#result-btn').show();
         $('#back').show();
+        $('#buttons').addClass('only-button');
     } else if ($($current).prev(".question").length == 0) {
         $('#back').hide();
         $('#next').show();
+        $('#buttons').addClass('only-button');
     } else {
         $('#next').show();
         $('#back').show();
+        $('#buttons').removeClass('only-button');
     }
 }
 
