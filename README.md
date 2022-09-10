@@ -1,20 +1,21 @@
 Code Institute September 2022 Hackathon themed around the gender gap in tech
 # **Mind the Gap Website**
 
+Mind the Gap is an interactive online aptitude test designed to help women find their calling in the technology industry. Women who have any sort of interest in a career in the technology industry will be encouraged to take this quiz!
 
 # **User Experience (UX)**
 
-  
+- As a user I want to know if I have any skills or aptitude for a career in the technology industry.
 
 ## **Design**
 
 ## **Colour Scheme**
 
+The colours selected for this site were yellow(`color: #FFF200;`), white(`color: #FFFFFF;`) and black(`color: #000000;`). These colours were selected to invoke the sub-theme of this site which is mind the gap.
 
 ## **Typography**
 
-Google fonts was used for the following fonts:
-
+Roboto was selected as the primary font for this site. It was selected due to its simplicity and it doesn't detract too much from the content of the quiz.
 
 ## **Imagery**
 
@@ -23,7 +24,6 @@ All images used were taken from free sources which is credited in the credits se
 ## **Wireframes**
 
 ### **Mobile**
-
 
 #### Homepage on Mobile
 ![Mobile Home](/docs/home-mobile.png)
@@ -35,12 +35,7 @@ All images used were taken from free sources which is credited in the credits se
 ![Mobile Results](/docs/results-mobile.png)
 
 
-
-### **Tablet**
-
-
 ### **Desktop**
-
 
 #### Homepage on Desktop
 ![Desktop Home](/docs/home-desktop.png)
@@ -56,6 +51,21 @@ All images used were taken from free sources which is credited in the credits se
 
 ## **Existing Features**
 
+- __Quiz__
+The quiz consists of different questions, all of which feature multiple answers. The quiz features dynamic flow and questions. These questions are designed to see if the user has any skills or aptitiude suitable for a career in technology.
+
+- __Next Button__
+A button found at the bottom of each question to move onto the next question.
+
+- __Back Button__
+A button found at the bottom of each question to move onto the next question.
+
+- __Results Meter__
+This is a graphical interfact that displays the users results as a percentage. The semi-circle will be filled in according to the users final score on the quiz. This for the user to easily read and visualize their respective score.
+
+- __Footer__
+Footer features links to each contributer of this website. Additionally 
+
 # **Technologies Used**
 
 ## **Languages Used**
@@ -65,7 +75,6 @@ All images used were taken from free sources which is credited in the credits se
 - JS
 
 ## **Frameworks, Libraries & Programs Used**
-
 
 [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
 
@@ -96,12 +105,6 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 ## **Testing User Stories from User Experience (UX) Section**
 
 ### **First Time Visitor Goals**
-
-
-### **Returning Visitor Goals**
-
-
-### **Frequent User Goals**
 
 
 ## **Known Bugs**
