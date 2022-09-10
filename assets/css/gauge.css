@@ -4,7 +4,7 @@
     font-family: "Roboto", sans-serif;
     font-size: 32px;
     color: #004033;
-    border: 1px solid black;
+/*     border: 1px solid black; */
     display: flex;
     align-self: center;
 }

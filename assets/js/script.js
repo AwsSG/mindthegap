@@ -20,9 +20,9 @@ function buttonCheck() {
     var $current = $('.question.active');
     if ($($current).next(".question").length == 0) {
         $('#next').hide();
+        $('#result-btn').show();
         $('#back').show();
     } else if ($($current).prev(".question").length == 0) {
-
         $('#back').hide();
         $('#next').show();
     } else {
@@ -32,9 +32,9 @@ function buttonCheck() {
 }
 
 $("#start").click(function () {
-    $(".our_mission").hide("fast");
-    $(".start-test").hide("fast");
-    $("#question-box").show("fast");
+    $(".our_mission").hide();
+    $(".start-test").hide();
+    $("#question-box").show();
 });
 
 let answers = [];
@@ -48,3 +48,24 @@ $("input[type='radio'][name='inlineRadioOptions']").click(function () {
     console.log(answers)
     console.log(total)
 });
+
+$('#result-btn').click(function () {
+    $('.question.active').hide();
+    $('#result-btn').hide();
+    $('#back').hide();
+    $('#result').show()
+});
+
+const gaugeElement = document.querySelector(".gauge");
+
+function setGaugeValue(gauge, value) {
+    if (value < 0 || value > 100) {
+        return;
+    }
+
+    gauge.querySelector(".gauge-fill").style.transform = `rotate(${value / 200}turn)`;
+    gauge.querySelector(".gauge-cover").textContent = `${value}%`;
+}
+
+
+setGaugeValue(gaugeElement, total)
