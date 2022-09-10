@@ -17,7 +17,6 @@
     --primary-cl: black;
     --secondary-cl:rgb(216, 200, 48);
     --accent-cl: rgb(203,203,204);
-
     --ff-primary: 'Roboto', sans-serif;
 }
 
@@ -131,28 +130,42 @@ p.no-name {
 footer{
     display: flex;
     flex-direction: column;
-    background: center center/cover no-repeat url(../images/clouds-ernest-brillo-unsplash\ \(1\).webp);
+    /* background: center center/cover no-repeat url(../images/clouds-ernest-brillo-unsplash\ \(1\).webp); */
+    background-color: black;
+    padding: 5px;
 }
 
 .gitHub-link{
-    display: flex;
+    display: flex; 
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     gap: 20px;
     margin: 10px 0 10px 0;
 }
 
 footer a{
     text-decoration: none;
-    color: black;
+    color:var(--secondary-cl);
     font-weight: 700;
     font-size: 1.25rem;
+   
 }
 
 footer p{
     text-align: center;
     font-weight: 700;
-    color: black;
+    color:var(--secondary-cl);
+}
+
+footer>p{
+    margin-bottom: 0;
+}
+
+.git-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .git-dummy{
@@ -175,6 +188,10 @@ footer p{
         background: url(../images/mind-the-gap2.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+    }
+
+    footer a{
+        font-size: 1rem;
     }
     
 }
