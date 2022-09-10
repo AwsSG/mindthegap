@@ -29,7 +29,7 @@
     background: #009578;
     transform-origin: center top;
     transform: rotate(0.25turn);
-    transition: transform 0.2s ease-out;
+    transition: transform 1s ease-out;
 }
 
 .gauge-cover {

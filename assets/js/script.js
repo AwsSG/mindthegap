@@ -54,10 +54,6 @@ $("input[type='radio'][name='inlineRadioOptions']").click(function () {
     }
     $(".gauge-cover").text(total*200 + "%");
     $(".gauge-fill").css("transform","rotate(" + total + "turn)");
-    console.log(total)
-/*     console.log(score)
-    console.log(answers)
-    console.log(total) */
 });
 
 $('#result-btn').click(function () {
@@ -65,4 +61,11 @@ $('#result-btn').click(function () {
     $('#result-btn').hide();
     $('#back').hide();
     $('#result').show()
+    if (total*200 <= 40) {
+        $('#no-developer').show()
+    }else if (total*200 <= 80) {
+        $('#developer2').show()
+    } else {
+        $('#developer1').show()
+    }
 });
