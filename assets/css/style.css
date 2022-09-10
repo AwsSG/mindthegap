@@ -21,8 +21,12 @@ body {
 }
 
 header{
-    /* text-align: center; */
-    background: center center/cover no-repeat url(../images/clouds-ernest-brillo-unsplash\ \(1\).webp);
+    height: 300px;
+    background: url(../images/mind-the-gap2.jpg);
+    background-position-y: -370px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .container-fluid{
@@ -159,6 +163,13 @@ footer p{
         /* height: auto; */
         max-height: 200px;
     }
+
+    header{
+        height: 300px;
+        background: url(../images/mind-the-gap2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     
 }
 
@@ -176,6 +187,14 @@ footer p{
         width: 90%;
         /* height: auto; */
         max-height: 300px;
+    }
+
+    header{
+        height: 300px;
+        background: url(../images/mind-the-gap2.jpg);
+        background-position-y: -80px;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     
 }
@@ -195,6 +214,13 @@ footer p{
         height: 140px;
         width: 190px;
         margin: 5px;
+    }
+    header{
+        height: 300px;
+        background: url(../images/mind-the-gap2.jpg);
+        background-position-y: -370px;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 /* to hide non active questions */
