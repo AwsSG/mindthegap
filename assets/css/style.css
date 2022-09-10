@@ -224,6 +224,6 @@ footer p{
     }
 }
 /* to hide non active questions */
-.question:not(.active), #question-box, #result, #result-btn {
+.question:not(.active), #question-box, #result, #result-btn, #developer1, #developer2, #no-developer {
     display: none;
 }
