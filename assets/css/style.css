@@ -79,9 +79,9 @@ h4 {
     background-color: var(--secondary-cl);
 }
 
-/* .no-name {
-    
-} */
+p.no-name {
+    visibility: hidden;
+}
 
 /* input[type='radio'] {
     visibility: hidden;
@@ -110,6 +110,12 @@ h4 {
 .button {
     background-color: var(--primary-cl);
     color: var(--secondary-cl);
+}
+
+.only-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer{
