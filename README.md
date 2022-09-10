@@ -6,13 +6,19 @@ Find our deployed site here: [Mind The Gap](https://awssg.github.io/mindthegap/)
 
 This website was created for the Code Institute September 2022 Hackathon themed around the gender gap in the technology industry.
 
-![Mind The Gap]()
+![Mind The Gap](/docs/am-i-responsive.png)
 
 # **User Experience (UX)**
 
 - As a user I want to know if I have any skills or aptitude for a career in the technology industry.
 
 ## **Design**
+
+## **Questions**
+
+- Quiz questions will take a user to series of questions. For visualizing the question flow we used [Lucid Charts](https://www.lucidchart.com/pages/)
+
+![Lucid Charts](/docs/question-flow-mindthegap.png)
 
 ## **Colour Scheme**
 
@@ -86,59 +92,62 @@ At the begininng of the planning phase for this site, there were multiple branch
 - __Informational Text Overlays__
 Between each question have a screen overlay with text, images and quotes from famous women within the technology industry.
 
+- __Questions and Results Meter Transition__
+Smoother transition between questions and upon completion of quiz the results meter will fill up in real time for greater user experience
+
 # **Technologies Used**
 
 ## **Languages Used**
 
-- JavaScript (JS) was the primary programming language for this project and was used to run and operate the gladiator game and its respective features. It was also used alongside HyperTextMarkup Langugae and Cascading Style Sheets to illustrate and interact with the user. [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+- JavaScript (JS) was the primary programming language for this project and was used to run and operate the quiz and its respective features. It was also used alongside HyperTextMarkup Langugae and Cascading Style Sheets to illustrate and interact with the user. [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 - HyperTextMarkup Langugae (HTML) was utilised for the main content of the website and as the standard markup language. It was also used because of its ability to be used alongside Cascading Style sheets programming language. [HTML](https://en.wikipedia.org/wiki/HTML)
 - Cascading Style Sheets (CSS) was the programming langugae used in conjunction with HTML. It was used to present the markup langugae HTML. CSS was used to put the HTML into a presentable form. [CSS](https://en.wikipedia.org/wiki/CSS)
+-Git Version Control was used to track and manage changes. 
 
 ## **Frameworks, Libraries & Programs Used**
 
-[Balsamiq](https://balsamiq.com/) - Used to create wireframes.
+- [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
 
-[Bootstrap](https://www.w3schools.com/whatis/whatis_bootstrap.asp)
+- [Bootstrap](https://www.w3schools.com/whatis/whatis_bootstrap.asp)
 
-[Git](https://git-scm.com/) - Git was the technology used for version control. It is free and open sourced.
+- [Git](https://git-scm.com/) - Git was the technology used for version control. It is free and open sourced.
 
-[Github](https://github.com/) - To save and store files on website.
+- [Github](https://github.com/) - To save and store files on website.
 
-[Google Fonts](https://fonts.google.com/) - To import the fonts used on the website. 
+- Git Projects
 
-[Coolors.co](https://coolors.co/) - For colour palletes.
+- [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website. 
 
-[Font Awesome](https://fontawesome.com/) - For the iconography on the website. 
+- [Coolors.co](https://coolors.co/) - For colour palletes.
 
-Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+- [Font Awesome](https://fontawesome.com/) - For the iconography on the website. 
 
-[Tiny PNG](https://tinypng.com/) - To compress images.
+- Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
 
-[Favicon.io](https://favicon.io/) - To create favicon. 
+- [Tiny PNG](https://tinypng.com/) - To compress images.
 
-[Am I Responsive?](https://ui.dev/amiresponsive) - To show the website image on a range of devices. 
+- [Favicon.io](https://favicon.io/) - To create favicon. 
+
+- [Am I Responsive?](https://ui.dev/amiresponsive) - To show the website image on a range of devices. 
 
 
 # **Testing**
 
-- JavaScript
+## **JavaScript**
  - script.js Validation: No errors were returned when passing through the official [JSHint](https://jshint.com/)
-  - ![script.js Validation]()
 
-- Html
+## **Html**
  - Index Page Validation: No errors were returned when passing through the official [W3C validator]()
-  - ![Index Page Validation]()
 
-- CSS
+## **CSS**
  - No errors were found when passing through the official [(Jigsaw) validator]()
-  - ![CSS Validation]()
 
 ## **Testing User Stories from User Experience (UX) Section**
 
 ### **First Time Visitor Goals**
 
 - As a user I want to know if I have any skills or aptitude for a career in the technology industry.
-    - ![Results]()
+ ![Results](/docs/results-page.png)
 
 ## **Known Bugs**
 
