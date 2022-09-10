@@ -39,14 +39,22 @@ $("#start").click(function () {
 
 let answers = [];
 let total = 0;
-/* .hide( "slide", { direction: "left"  }, 2000 ) */
+
 $("input[type='radio'][name='inlineRadioOptions']").click(function () {
     let score = $("input[type='radio'][name='inlineRadioOptions']:checked").val();
-    answers.push(Number(score))
-    total = answers.reduce((a, b) => a + b, 0)
-    console.log(score)
-    console.log(answers)
+    answers.push(Number(score));
+    total = answers.reduce((a, b) => a + b, 0);
+    if (total <= 0) {
+        total = 0;
+    }else if (total > 0) {
+        total = total/200;
+    }
+    $(".gauge-cover").text(total*200 + "%");
+    $(".gauge-fill").css("transform","rotate(" + total + "turn)");
     console.log(total)
+/*     console.log(score)
+    console.log(answers)
+    console.log(total) */
 });
 
 $('#result-btn').click(function () {
@@ -55,17 +63,3 @@ $('#result-btn').click(function () {
     $('#back').hide();
     $('#result').show()
 });
-
-const gaugeElement = document.querySelector(".gauge");
-
-function setGaugeValue(gauge, value) {
-    if (value < 0 || value > 100) {
-        return;
-    }
-
-    gauge.querySelector(".gauge-fill").style.transform = `rotate(${value / 200}turn)`;
-    gauge.querySelector(".gauge-cover").textContent = `${value}%`;
-}
-
-
-setGaugeValue(gaugeElement, total)
